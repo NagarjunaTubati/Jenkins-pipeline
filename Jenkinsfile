@@ -8,13 +8,7 @@ node
         stage('build')
         {
             echo "build the code"
-            
-            {
-                Stage(ui test)
-                {
-                    echo "Ui testcase"
-                }
-            }
+           
         }
         stage('testing')
         {
